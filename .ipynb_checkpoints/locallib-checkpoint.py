@@ -1,8 +1,6 @@
 import numpy as np
 from web3 import Web3 
 from matplotlib import pyplot as plt
-import seaborn as sns
-sns.set_context("talk")
 
 # custom package
 # from ABmods.utils import WEB3 as w3
@@ -95,43 +93,3 @@ yearnVaults = {
     
     "tripool":"0xCbCaF8cB8cbeAFA927ECEE0c5C56560F83E9B7D9"
 }
-
-beefyVaults = {
-    'bifi':"0xbF07093ccd6adFC3dEB259C557b61E94c1F66945",
-
-    'btc1':"0x97927aBfE1aBBE5429cBe79260B290222fC9fbba",
-    "btc2":"0x7489bFD512BEDd6b16318fa7c33F1Bc7075C372d",
-    "eth1":"0x0a03D2C1cFcA48075992d810cc69Bd9FE026384a",
-    "eth2":"0x7bdD39339bE40adC54199aB4b5Fb6B2A89D40d4c",
-    'ftm1':"0x49c68eDb7aeBd968F197121453e41b8704AcdE0C",
-    "ftm2":"0xbf1340159c1b69Ae98Ff08BE5fC77cdc084dDc73",
-
-    "usdc1":"0x2438009ba14A93e82ab43c66838e57bE27A55Aa1",
-    "usdc2":"0x4Fa9263B35DC20bfa2eDEE24ee26113b40C4D3bB",
-    "usdt1":"0xb09cf345294aDD1066543B22FD7384185F7C6fCA",
-    "usdt2":"0xe9B01CB6c9379a491108119713b7D62C38DB9C97",
-    "mim1":"0x074A2a6d0fdbf6860033E57eBD37Aeb88c3931b4",
-    "mim2":"0xE7E08D82853dcf1057B2f8BCeF781d904602B6a0",
-    "dai1":"0x920786cff2A6f601975874Bb24C63f0115Df7dc8",
-    "dai2":"0x315d6030e908835b1dfE3393213Cab70bfB30Ace",
-
-    "boo1":"0x15DD4398721733D8273FD4Ed9ac5eadC6c018866",
-    "frax1":"0xb8EddAA94BB8AbF8A5BB90c217D53960242e104D",
-    "crv1":"0xE8883Cd90A2D6F2877E130120965D61918d7CE44",
-    "crv2":"0xedEb044BC7Ce11Dfa436CFA8Be43e6eB0d601814",
-    "spell1":"0x5EB148A571B0B3D8b8eB46053545E7DF833898Dc",
-    "dola1":"0x897a1B6F3a2C3D2CB3137888F310Ecdc752bfcFB",
-    "spell1":"0x6DfE2AAEA9dAadADf0865B661b53040E842640f8",
-
-    
-}
-
-
-
-
-
-
-
-
-
-
